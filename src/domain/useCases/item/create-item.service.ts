@@ -1,6 +1,8 @@
+import { Injectable } from '@nestjs/common';
 import { CreateItemDto } from 'src/domain/dtos/item/create-item-dto';
 import { Item } from 'src/domain/entities/item';
 
+@Injectable()
 export class CreateItemUseCase {
   private readonly itemRepository;
 
