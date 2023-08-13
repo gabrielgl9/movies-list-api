@@ -1,5 +1,5 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { EnvironmentConfigService } from 'src/infrastructure/config/environment-config/environment-config.service';
+import { EnvironmentConfigService } from 'src/infrastructure/environment-config/environment-config.service';
 
 export const createTypeOrmModuleOptions = (
   config: EnvironmentConfigService,
