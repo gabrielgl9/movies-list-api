@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { EnvironmentConfigService } from '../environment-config/environment-config.service';
-import { createTypeOrmModuleOptions } from 'src/shared/factories/create-typeorm-factory';
+import { createTypeOrmModuleOptions } from 'src/infrastructure/typeorm/factories/create-typeorm-factory';
 
 @Module({
   imports: [

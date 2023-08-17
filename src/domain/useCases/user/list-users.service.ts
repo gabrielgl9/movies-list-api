@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Item } from 'src/domain/entities/item';
+import { Item } from 'src/domain/models/item';
 
 @Injectable()
 export class ListUsersUseCase {
